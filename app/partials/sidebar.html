@@ -1,0 +1,17 @@
+<ul data-role="listview">
+	<li><a href="#main">{{'home'|i18n}}</a></li>
+
+	<li data-theme="a" data-role="list-divider">{{'scolarity'|i18n}}</li>
+	<li><a href="#page-marks" ng-class="{'ui-disabled': !auth.logged}">{{'marks'|i18n}}</a></li>
+	<li><a href="#page-absences" ng-class="{'ui-disabled': !auth.logged}">{{'absences'|i18n}}</a></li>
+	<li><a href="#page-agenda" ng-class="{'ui-disabled': !auth.logged}" >{{'agenda'|i18n}}</a></li>
+
+	<li data-theme="a" data-role="list-divider">{{'student-life'|i18n}}</li>
+	<li><a href="#page-student-union-news">{{'student-union-news'|i18n}}</a></li>
+	<li><a href="#page-achievements" ng-class="{'ui-disabled': !auth.logged}" >{{'achievements'|i18n}}</a></li>
+	<li><a href="#page-elections" ng-class="{'ui-disabled': !auth.logged}" >{{'elections'|i18n}}</a></li>
+
+	<li data-theme="a" data-role="list-divider">{{'services'|i18n}}</li>
+	<li><a href="#page-service-search" ng-class="{'ui-disabled': !auth.logged}">{{'service-search'|i18n}}</a></li>
+	<li><a href="#page-service-reports" ng-class="{'ui-disabled': !auth.logged}" >{{'service-reports'|i18n}}</a></li>
+</ul>

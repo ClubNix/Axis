@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "fr.clubnix.axis"
+        versionCode = "10"
+        version     = "0.0.42">
+ 
+    <name>Axis</name>
+ 
+    <description>
+        Application par des étudiants d'ESIEE Paris pour étudiants d'ESIEE Paris. 
+    </description>
+ 
+    <author href="http://www.clubnix.fr" email="philippe.lewin@gmail.com">
+        Club*Nix
+    </author>
+ 
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+ 
+    <access origin="*" />
+</widget>
